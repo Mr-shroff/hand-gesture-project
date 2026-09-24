@@ -1,0 +1,116 @@
+# Hand Gesture Controlled Game
+
+An AI-powered interactive game that uses real-time hand gesture recognition to control gameplay without a keyboard, mouse, or traditional controller.
+
+## About the Project
+
+This project uses a webcam and computer vision to detect hand gestures and translate them into actions inside the game. The player can interact with enemies and control different abilities using natural hand movements.
+
+The goal is to create a more interactive and immersive gaming experience by turning the user's hand into a virtual game controller.
+
+## Features
+
+* Real-time hand gesture detection
+* Webcam-based computer vision
+* Gesture-based game controls
+* Gun gesture for shooting
+* Thumb movement to simulate pulling the trigger
+* Open-palm gesture for activating the shield
+* Fist gesture for entering combat mode
+* Enemy interaction and hit detection
+* Score and gameplay tracking
+* Controller-free gameplay
+
+## How It Works
+
+The webcam captures the user's hand movements. The hand tracking system identifies the position and shape of the hand and recognizes predefined gestures.
+
+These gestures are then mapped to specific actions in the game.
+
+| Hand Gesture   | Game Action       |
+| -------------- | ----------------- |
+| Gun Gesture    | Aim and shoot     |
+| Thumb movement | Pull the trigger  |
+| Open Palm      | Activate shield   |
+| Fist           | Enter combat mode |
+
+## Technologies Used
+
+* Python
+* OpenCV
+* MediaPipe
+* Computer Vision
+* Hand Gesture Recognition
+* Game Development
+
+## Hardware Requirements
+
+* Computer or laptop
+* Webcam
+* Optional Arduino hardware for additional interaction
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mr-shroff/hand-gesture-project.git
+```
+
+Go into the project directory:
+
+```bash
+cd hand-gesture-project
+```
+
+Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Project
+
+Run the main Python file:
+
+```bash
+python main.py
+```
+
+If your project uses a different Python file as the entry point, replace `main.py` with the appropriate filename.
+
+Allow the application to access your webcam and show the required hand gestures in front of the camera.
+
+## Project Structure
+
+```text
+hand-gesture-project/
+│
+├── sketch_sep21a/
+│   └── sketch_sep21a.ino
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── other project files
+```
+
+The exact project structure may vary depending on the version of the project.
+
+## Future Improvements
+
+* Add more hand gestures
+* Improve gesture recognition accuracy
+* Add more enemies and levels
+* Add sound effects and background music
+* Add multiplayer support
+* Improve graphics and animations
+* Add more Arduino-based hardware interaction
+
+## Author
+
+Shubham Sarraf
+
+## License
+
+This project is created for educational and experimental purposes.
